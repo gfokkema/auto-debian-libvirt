@@ -6,7 +6,7 @@ VMS_DIRECTORY=/VMS # Directory to allocate VM image file
 RELEASE=wheezy # Debian release to install
 ARCH=amd64 # Architecture
 MIRROR=http://ftp.debian.org/debian # Debian mirror
-PRESEED=https://github.com/albertomolina/auto-debian-libvirt/blob/master/wheezy-preseed.txt
+PRESEED=http://informatica.gonzalonazareno.org/~alberto.molina/wheezy-preseed.txt
 VIRTUALNETWORK=default # Virtual network
 
 if [  $# -ne 1 ]
