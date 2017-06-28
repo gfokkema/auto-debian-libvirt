@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #### Contents of the preconfiguration file (for wheezy)
 ### Localization
 # Preseeding only locale sets language, country and locale.
