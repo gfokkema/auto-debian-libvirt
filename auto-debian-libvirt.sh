@@ -12,16 +12,16 @@ fi
 
 case ${1} in
   zb)
-    HOST=10.99.0.46
+    HOST=172.19.5.31
     ;;
   d1)
-    HOST=10.99.0.54
+    HOST=172.19.1.31
     ;;
   d2)
-    HOST=10.99.0.105
+    HOST=172.19.1.32
     ;;
   tcn)
-    HOST=10.99.0.111
+    HOST=172.19.3.31
     ;;
   *)
     echo "Invalid host ${1}. Choose one of (d1|d2|tcn|zb)."
